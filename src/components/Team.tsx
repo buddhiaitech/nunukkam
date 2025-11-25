@@ -16,18 +16,7 @@ const Team = () => {
           <div className="space-y-12">
             {/* Kishore Kumar PGR */}
             <div className="bg-background rounded-3xl overflow-hidden shadow-2xl animate-fade-in">
-              <div className="grid md:grid-cols-5 gap-8">
-                {/* Profile Image */}
-                <div className="md:col-span-2 bg-gradient-to-br from-primary to-secondary p-1">
-                  <div className="bg-background h-full flex items-center justify-center p-12">
-                    <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                      <Users className="w-24 h-24 text-primary" />
-                    </div>
-                  </div>
-                </div>
-
-                {/* Profile Content */}
-                <div className="md:col-span-3 p-8 md:p-12">
+              <div className="p-8 md:p-12">
                   <div className="mb-6">
                     <h3 className="text-3xl font-bold text-foreground mb-2">Kishore Kumar PGR</h3>
                     <p className="text-xl text-primary font-semibold">Co-founder, Nunukkam</p>
@@ -104,23 +93,11 @@ const Team = () => {
                     strategic vision with hands-on leadership to deliver sustainable growth and development.
                   </p>
                 </div>
-              </div>
             </div>
 
             {/* Rajagopal */}
             <div className="bg-background rounded-3xl overflow-hidden shadow-2xl animate-fade-in">
-              <div className="grid md:grid-cols-5 gap-8">
-                {/* Profile Image */}
-                <div className="md:col-span-2 bg-gradient-to-br from-secondary to-primary p-1">
-                  <div className="bg-background h-full flex items-center justify-center p-12">
-                    <div className="w-48 h-48 rounded-full bg-gradient-to-br from-secondary/20 to-primary/20 flex items-center justify-center">
-                      <Users className="w-24 h-24 text-secondary" />
-                    </div>
-                  </div>
-                </div>
-
-                {/* Profile Content */}
-                <div className="md:col-span-3 p-8 md:p-12">
+              <div className="p-8 md:p-12">
                   <div className="mb-6">
                     <h3 className="text-3xl font-bold text-foreground mb-2">Rajagopal</h3>
                     <p className="text-xl text-secondary font-semibold">Co-founder, Nunukkam</p>
@@ -193,7 +170,6 @@ const Team = () => {
                     education, industry, and technology come together to produce job-ready professionals and future leaders.
                   </p>
                 </div>
-              </div>
             </div>
           </div>
         </div>
