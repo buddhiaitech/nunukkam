@@ -1,4 +1,4 @@
-import { Award, Briefcase, GraduationCap, Users } from "lucide-react";
+import { Award, Briefcase, GraduationCap, Lightbulb, Quote } from "lucide-react";
 
 const Team = () => {
   return (
@@ -169,6 +169,79 @@ const Team = () => {
                     By partnering with colleges and corporates, Rajagopal aims to create a holistic ecosystem where 
                     education, industry, and technology come together to produce job-ready professionals and future leaders.
                   </p>
+                </div>
+            </div>
+
+            {/* Harisree Gudimella */}
+            <div className="bg-background rounded-3xl overflow-hidden shadow-2xl animate-fade-in">
+              <div className="p-8 md:p-12">
+                  <div className="mb-6">
+                    <h3 className="text-3xl font-bold text-foreground mb-2">Harisree Gudimella</h3>
+                    <p className="text-xl text-primary font-semibold">Chief of Product</p>
+                    <p className="text-lg text-muted-foreground mt-2 italic">Building thinkers, not just learners.</p>
+                  </div>
+
+                  <p className="text-lg text-foreground leading-relaxed mb-8">
+                    Harisree once asked a top-performing sales manager to explain why his pitch worked so well. He couldn't. 
+                    He'd replicated it, scaled it, even trained others—but didn't understand why it worked. That moment 
+                    changed everything: we're producing professionals who perform without principles.
+                  </p>
+
+                  {/* Experience */}
+                  <div className="mb-8">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Briefcase className="w-6 h-6 text-primary" />
+                      <h4 className="text-xl font-bold text-foreground">Experience & Impact</h4>
+                    </div>
+                    <div className="space-y-3">
+                      {[
+                        "Over 8 years of experience in professional training and development",
+                        "Trained 20,000+ students and 10,000+ professionals",
+                        "Expert insight: Most professional development solves the wrong problem",
+                        "Focus on first principles thinking over frameworks and buzzwords"
+                      ].map((item, index) => (
+                        <div key={index} className="flex items-start">
+                          <div className="w-2 h-2 rounded-full bg-primary mt-2 mr-3 flex-shrink-0"></div>
+                          <p className="text-muted-foreground">{item}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Approach at Nunukkam */}
+                  <div className="mb-8">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Lightbulb className="w-6 h-6 text-secondary" />
+                      <h4 className="text-xl font-bold text-foreground">Approach at Nunukkam</h4>
+                    </div>
+                    <div className="space-y-3">
+                      {[
+                        "Designs learning experiences rooted in metacognition and structured thinking",
+                        "Teaches graduates to articulate clearly and solve problems methodically",
+                        "Focuses on understanding the 'why' behind the work",
+                        "Transforms graduates into professionals who deliver value from day one"
+                      ].map((item, index) => (
+                        <div key={index} className="flex items-start">
+                          <div className="w-2 h-2 rounded-full bg-secondary mt-2 mr-3 flex-shrink-0"></div>
+                          <p className="text-muted-foreground">{item}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Philosophy */}
+                  <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-6">
+                    <div className="flex items-center gap-2 mb-4">
+                      <Quote className="w-6 h-6 text-accent" />
+                      <h4 className="text-xl font-bold text-foreground">Philosophy</h4>
+                    </div>
+                    <p className="text-foreground font-medium mb-4">
+                      Strong foundations don't need ornamentation.
+                    </p>
+                    <p className="text-primary italic text-lg">
+                      "Seek your truth. Strengthen your tools. Think from the roots."
+                    </p>
+                  </div>
                 </div>
             </div>
           </div>
